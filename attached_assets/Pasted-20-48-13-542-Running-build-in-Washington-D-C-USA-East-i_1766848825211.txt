@@ -1,0 +1,60 @@
+20:48:13.542 Running build in Washington, D.C., USA (East) – iad1
+20:48:13.551 Build machine configuration: 2 cores, 8 GB
+20:48:13.924 Cloning github.com/Sumanradhadas/Ghostbinx (Branch: main, Commit: 994c95d)
+20:48:14.970 Cloning completed: 1.045s
+20:48:15.379 Restored build cache from previous deployment (5L3FhXnDb5ZAK2a113Xqon2tEka2)
+20:48:16.623 Running "vercel build"
+20:48:17.058 Vercel CLI 50.1.3
+20:48:17.980 Installing dependencies...
+20:48:21.759 
+20:48:21.760 added 95 packages, and changed 1 package in 4s
+20:48:21.760 
+20:48:21.760 76 packages are looking for funding
+20:48:21.760   run `npm fund` for details
+20:48:21.895 
+20:48:21.897 > rest-express@1.0.0 build
+20:48:21.897 > tsx script/build.ts
+20:48:21.897 
+20:48:22.807 building client...
+20:48:22.924 [36mvite v7.3.0 [32mbuilding client environment for production...[36m[39m
+20:48:23.245 transforming...
+20:48:24.494 
+20:48:24.496 A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+20:48:26.932 [32m✓[39m 1704 modules transformed.
+20:48:27.154 rendering chunks...
+20:48:27.162 computing gzip size...
+20:48:27.177 [2m../dist/public/[22m[32mindex.html                 [39m[1m[2m  2.01 kB[22m[1m[22m[2m │ gzip:  0.77 kB[22m
+20:48:27.178 [2m../dist/public/[22m[2massets/[22m[35mindex-TZNjmz5N.css  [39m[1m[2m 69.17 kB[22m[1m[22m[2m │ gzip: 11.35 kB[22m
+20:48:27.178 [2m../dist/public/[22m[2massets/[22m[36mindex-B7h9Iw-f.js   [39m[1m[2m301.24 kB[22m[1m[22m[2m │ gzip: 98.26 kB[22m
+20:48:27.178 [32m✓ built in 3.98s[39m
+20:48:27.178 building server...
+20:48:27.350 
+20:48:27.351   dist/index.cjs  945.0kb
+20:48:27.351 
+20:48:27.351 ⚡ Done in 159ms
+20:48:27.658 Using TypeScript 5.6.3 (local user-provided)
+20:48:33.356 api/auth/login.ts(2,17): error TS7016: Could not find a declaration file for module 'jsonwebtoken'. '/vercel/path0/node_modules/jsonwebtoken/index.js' implicitly has an 'any' type.
+20:48:33.357   Try `npm i --save-dev @types/jsonwebtoken` if it exists or add a new declaration (.d.ts) file containing `declare module 'jsonwebtoken';`
+20:48:33.357 
+20:48:34.096 Using TypeScript 5.6.3 (local user-provided)
+20:48:34.414 api/auth/status.ts(2,17): error TS7016: Could not find a declaration file for module 'jsonwebtoken'. '/vercel/path0/node_modules/jsonwebtoken/index.js' implicitly has an 'any' type.
+20:48:34.415   Try `npm i --save-dev @types/jsonwebtoken` if it exists or add a new declaration (.d.ts) file containing `declare module 'jsonwebtoken';`
+20:48:34.416 
+20:48:34.617 Using TypeScript 5.6.3 (local user-provided)
+20:48:35.186 api/items/index.ts(2,17): error TS7016: Could not find a declaration file for module 'jsonwebtoken'. '/vercel/path0/node_modules/jsonwebtoken/index.js' implicitly has an 'any' type.
+20:48:35.187   Try `npm i --save-dev @types/jsonwebtoken` if it exists or add a new declaration (.d.ts) file containing `declare module 'jsonwebtoken';`
+20:48:35.187 
+20:48:36.034 Using TypeScript 5.6.3 (local user-provided)
+20:48:36.378 api/items/[id].ts(2,17): error TS7016: Could not find a declaration file for module 'jsonwebtoken'. '/vercel/path0/node_modules/jsonwebtoken/index.js' implicitly has an 'any' type.
+20:48:36.378   Try `npm i --save-dev @types/jsonwebtoken` if it exists or add a new declaration (.d.ts) file containing `declare module 'jsonwebtoken';`
+20:48:36.378 api/items/[id].ts(37,30): error TS2554: Expected 1 arguments, but got 0.
+20:48:36.378 
+20:48:36.836 Using TypeScript 5.6.3 (local user-provided)
+20:48:37.397 Build Completed in /vercel/output [19s]
+20:48:37.646 Deploying outputs...
+20:48:39.243 Warning: Provided `memory` setting in `vercel.json` is ignored on Active CPU billing. You can safely remove this setting from your configuration. Learn more: https://vercel.com/docs/fluid-compute/pricing
+20:48:43.379 Deployment completed
+20:48:44.329 Creating build cache...
+20:49:23.647 Created build cache: 39.313s
+20:49:23.647 Uploading build cache [100.72 MB]
+20:49:24.924 Build cache uploaded: 1.280s
